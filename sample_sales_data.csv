@@ -1,0 +1,16 @@
+order_id,order_date,customer_id,customer_name,product_id,product_name,category,quantity,unit_price,total_amount,currency,region,plant_code,sap_document_type,created_by,status
+ORD-001,2024-01-15,CUST-101,Caterpillar Dealership DE,PROD-500,Hydraulic Pump 320D,Heavy Equipment,10,1250.00,12500.00,EUR,EMEA,DE01,ZOR,SYSTEM,COMPLETED
+ORD-002,2024-01-16,CUST-102,Mining Corp Bavaria,PROD-501,Engine Filter Kit,Maintenance Parts,50,45.50,2275.00,EUR,EMEA,DE01,ZOR,SYSTEM,COMPLETED
+ORD-003,2024-01-17,CUST-103,Construction GmbH Munich,PROD-502,Track Assembly 390F,Heavy Equipment,2,8900.00,17800.00,EUR,EMEA,DE02,ZOR,SYSTEM,PENDING
+ORD-004,2024-01-18,CUST-104,Logistics AG Hamburg,PROD-503,Oil Seal Set,Maintenance Parts,100,12.75,1275.00,EUR,EMEA,DE02,ZOR,SYSTEM,COMPLETED
+ORD-005,2024-01-19,CUST-105,Industrial Solutions Berlin,PROD-504,Boom Cylinder 349F,Heavy Equipment,5,3200.00,16000.00,EUR,EMEA,DE03,ZOR,SYSTEM,COMPLETED
+ORD-006,2024-01-20,CUST-106,Quarry Operations Frankfurt,PROD-505,Bucket Assembly,Heavy Equipment,3,6750.00,20250.00,EUR,EMEA,DE01,ZOR,SYSTEM,COMPLETED
+ORD-007,2024-01-21,CUST-107,Steel Works Duisburg,PROD-506,Undercarriage Kit,Maintenance Parts,1,15500.00,15500.00,EUR,EMEA,DE04,ZOR,SYSTEM,FAILED
+ORD-008,2024-01-22,CUST-108,Road Builders AG Stuttgart,PROD-507,Grader Blade 140M,Heavy Equipment,4,2100.00,8400.00,EUR,EMEA,DE03,ZOR,SYSTEM,COMPLETED
+ORD-009,2024-01-23,CUST-109,Energy Corp Dusseldorf,PROD-508,Transmission Kit,Heavy Equipment,2,11250.00,22500.00,EUR,EMEA,DE02,ZOR,SYSTEM,COMPLETED
+ORD-010,2024-01-24,CUST-110,Demolition Services Bremen,PROD-509,Hydraulic Hose Kit,Maintenance Parts,25,85.00,2125.00,EUR,EMEA,DE01,ZOR,SYSTEM,COMPLETED
+ORD-011,2024-01-25,CUST-111,Port Authority Kiel,PROD-510,Final Drive Assembly,Heavy Equipment,1,28000.00,28000.00,EUR,EMEA,DE05,ZOR,SYSTEM,COMPLETED
+ORD-012,2024-01-26,CUST-112,Mining GmbH Bochum,PROD-511,Air Filter Set 3406E,Maintenance Parts,75,22.00,1650.00,EUR,EMEA,DE04,ZOR,SYSTEM,PENDING
+ORD-013,2024-01-27,CUST-113,Earthworks Leipzig,PROD-512,Swing Bearing 325D,Heavy Equipment,3,4500.00,13500.00,EUR,EMEA,DE02,ZOR,SYSTEM,COMPLETED
+ORD-014,2024-01-28,,Heavy Equipment AG,PROD-513,Bucket Pin Kit,Maintenance Parts,20,35.50,710.00,EUR,EMEA,DE01,ZOR,SYSTEM,COMPLETED
+ORD-015,2024-01-29,CUST-115,Tunnel Builders Cologne,PROD-514,Dozer Blade D8T,Heavy Equipment,1,42000.00,42000.00,EUR,EMEA,DE06,ZOR,SYSTEM,COMPLETED
