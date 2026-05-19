@@ -1,0 +1,10 @@
+snowflake-connector-python==3.6.0
+pandas==2.2.0
+python-dotenv==1.0.0
+sqlalchemy==2.0.25
+snowflake-sqlalchemy==1.5.1
+pytest==7.4.4
+dbt-snowflake==1.7.0
+apache-airflow==2.8.0
+great-expectations==0.18.8
+loguru==0.7.2
