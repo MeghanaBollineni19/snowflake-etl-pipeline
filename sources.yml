@@ -1,0 +1,44 @@
+version: 2
+
+sources:
+  - name: raw
+    database: SALES_DWH
+    schema: RAW
+    tables:
+      - name: raw_sales_orders
+        description: "Landing zone for SAP sales order exports"
+        columns:
+          - name: order_id
+            description: "Unique SAP order identifier"
+            tests:
+              - not_null
+              - unique
+          - name: customer_id
+            tests:
+              - not_null
+          - name: total_amount
+            tests:
+              - not_null
+
+models:
+  - name: stg_sales
+    description: "Cleaned and typed staging layer for sales orders"
+    columns:
+      - name: order_id
+        tests:
+          - not_null
+          - unique
+      - name: order_date
+        tests:
+          - not_null
+      - name: status
+        tests:
+          - accepted_values:
+              values: ['COMPLETED', 'PENDING', 'FAILED', 'CANCELLED']
+
+  - name: dim_product_sales
+    description: "Final fact + product rollup for BI reporting"
+    columns:
+      - name: product_id
+        tests:
+          - not_null
